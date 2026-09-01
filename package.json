@@ -89,5 +89,10 @@
   "readmeFilename": "README.md",
   "optionalDependencies": {
     "jpeg-js": "^0.4.4"
-  }
+  },
+  "files": [
+    "build",
+    "README.md",
+    "LICENSE"
+  ]
 }
