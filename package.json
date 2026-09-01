@@ -1,6 +1,6 @@
 {
   "name": "eufy-security-client",
-  "version": "4.1.1",
+  "version": "4.1.1-compat.1",
   "description": "Client to communicate with Eufy-Security devices",
   "author": {
     "name": "bropat",
@@ -23,7 +23,8 @@
     "lint": "eslint --ext .ts src",
     "prepublishOnly": "tsc -p tsconfig.build.json && npm run copy-proto-build",
     "format": "prettier --write \"src/**/*.ts\"",
-    "format:check": "prettier --check \"src/**/*.ts\""
+    "format:check": "prettier --check \"src/**/*.ts\"",
+    "prepare": "npm run build"
   },
   "license": "MIT",
   "keywords": [

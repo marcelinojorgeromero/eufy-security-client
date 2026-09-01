@@ -1,5 +1,11 @@
 # eufy-security-client
 
+> [!IMPORTANT]
+> This fork branch is a temporary compatibility build for existing Home Assistant
+> installations. It includes narrowly reviewed Mega/v6 transition fixes while the
+> native Mega replacement is still under development. It does not remove the legacy
+> API dependency described below and is not affiliated with Eufy.
+
 > [!CAUTION]
 > # 🚨🚨🚨 LIBRARY DEPRECATION NOTICE 🚨🚨🚨
 >
