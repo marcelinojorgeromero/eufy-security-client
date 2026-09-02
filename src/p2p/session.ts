@@ -3811,10 +3811,13 @@ export class P2PClientProtocol extends TypedEmitter<P2PClientProtocolEvents> {
               })
               .catch((err) => {
                 const error = ensureError(err);
-                rootP2PLogger.error(`Handle DATA ${P2PDataType[message.dataType]} - CMD_DATABASE_IMAGE - Decode error`, {
-                  error: getError(error),
-                  stationSN: this.rawStation.station_sn,
-                });
+                rootP2PLogger.error(
+                  `Handle DATA ${P2PDataType[message.dataType]} - CMD_DATABASE_IMAGE - Decode error`,
+                  {
+                    error: getError(error),
+                    stationSN: this.rawStation.station_sn,
+                  }
+                );
               });
           } catch (err) {
             const error = ensureError(err);
