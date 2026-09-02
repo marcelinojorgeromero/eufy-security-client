@@ -6,16 +6,11 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## ⚠️ Development of this project has ended
+        ## Compatibility fork scope
 
-        This library depends on the legacy Eufy API, which Eufy is shutting down.
-        Once it is gone, no amount of patching here will keep this working.
-
-        **Issues and feature requests are no longer picked up.** Anything opened
-        here will most likely be closed without a fix.
-
-        A new integration built around Eufy Mega is in development. Please follow
-        that instead: [Discord](https://discord.gg/5wjQ2asb64)
+        Unknown-device support requires matching hardware or sanitized fixtures.
+        Remove credentials, tokens, serial numbers, private addresses, and account
+        payloads from logs before submitting them.
 
   - type: markdown
     attributes:

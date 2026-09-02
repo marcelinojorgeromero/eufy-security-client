@@ -1,12 +1,12 @@
 {
   "name": "eufy-security-client",
-  "version": "4.1.1-compat.2",
+  "version": "4.1.1-compat.3",
   "description": "Client to communicate with Eufy-Security devices",
   "author": {
     "name": "bropat",
     "email": "patrick.broetto@gmail.com"
   },
-  "homepage": "https://github.com/bropat/eufy-security-client",
+  "homepage": "https://github.com/marcelinojorgeromero/eufy-security-client",
   "main": "build/index.js",
   "exports": {
     ".": "./build/index.js",
@@ -23,7 +23,7 @@
     "lint": "eslint --ext .ts src",
     "prepublishOnly": "tsc -p tsconfig.build.json && npm run copy-proto-build",
     "format": "prettier --write \"src/**/*.ts\"",
-    "format:check": "prettier --check \"src/**/*.ts\"",
+    "format:check": "prettier --check \"src/**/*.ts\" --end-of-line auto",
     "prepare": "npm run build"
   },
   "license": "MIT",
@@ -42,7 +42,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/bropat/eufy-security-client"
+    "url": "https://github.com/marcelinojorgeromero/eufy-security-client"
   },
   "engines": {
     "node": ">=24.0.0"
@@ -84,7 +84,7 @@
     "typescript-eslint": "^8.49.0"
   },
   "bugs": {
-    "url": "https://github.com/bropat/eufy-security-client/issues"
+    "url": "https://github.com/marcelinojorgeromero/eufy-security-client/issues"
   },
   "readmeFilename": "README.md",
   "optionalDependencies": {

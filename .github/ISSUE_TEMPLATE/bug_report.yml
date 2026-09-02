@@ -6,16 +6,12 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## ⚠️ Development of this project has ended
+        ## Compatibility fork scope
 
-        This library depends on the legacy Eufy API, which Eufy is shutting down.
-        Once it is gone, no amount of patching here will keep this working.
-
-        **Issues and feature requests are no longer picked up.** Anything opened
-        here will most likely be closed without a fix.
-
-        A new integration built around Eufy Mega is in development. Please follow
-        that instead: [Discord](https://discord.gg/5wjQ2asb64)
+        This fork accepts reproducible compatibility regressions while existing
+        Home Assistant installations still depend on the legacy Eufy APIs.
+        It is not the native Mega successor. Remove credentials, tokens, serial
+        numbers, private addresses, and account payloads before attaching logs.
 
   - type: markdown
     attributes:
