@@ -6,16 +6,11 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## ⚠️ Development of this project has ended
+        ## Compatibility fork scope
 
-        This library depends on the legacy Eufy API, which Eufy is shutting down.
-        Once it is gone, no amount of patching here will keep this working.
-
-        **Issues and feature requests are no longer picked up.** Anything opened
-        here will most likely be closed without a fix.
-
-        A new integration built around Eufy Mega is in development. Please follow
-        that instead: [Discord](https://discord.gg/5wjQ2asb64)
+        Questions about this compatibility build are welcome. For the native
+        Mega successor, follow the upstream community announcement instead.
+        Never include credentials, tokens, serial numbers, or private addresses.
 
   - type: textarea
     id: question

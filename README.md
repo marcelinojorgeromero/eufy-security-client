@@ -5,6 +5,10 @@
 > installations. It includes narrowly reviewed Mega/v6 transition fixes while the
 > native Mega replacement is still under development. It does not remove the legacy
 > API dependency described below and is not affiliated with Eufy.
+>
+> Compatibility releases and support are published from this fork. Report regressions
+> in the [fork issue tracker](https://github.com/marcelinojorgeromero/eufy-security-client/issues);
+> device-specific changes still require matching hardware or reproducible fixtures.
 
 > [!CAUTION]
 > # 🚨🚨🚨 LIBRARY DEPRECATION NOTICE 🚨🚨🚨
@@ -45,7 +49,7 @@
 [![Downloads](https://img.shields.io/npm/dm/eufy-security-client.svg)](https://www.npmjs.com/package/eufy-security-client)
 [![Total Downloads](https://img.shields.io/npm/dt/eufy-security-client.svg)](https://www.npmjs.com/package/eufy-security-client)
 [![Dependency Status](https://img.shields.io/librariesio/release/npm/eufy-security-client)](https://libraries.io/npm/eufy-security-client)
-[![Known Vulnerabilities](https://snyk.io/test/github/bropat/eufy-security-client/badge.svg)](https://snyk.io/test/github/bropat/eufy-security-client)
+[![Known Vulnerabilities](https://snyk.io/test/github/marcelinojorgeromero/eufy-security-client/badge.svg)](https://snyk.io/test/github/marcelinojorgeromero/eufy-security-client)
 
 [![NPM](https://nodei.co/npm/eufy-security-client.png?downloads=true)](https://nodei.co/npm/eufy-security-client/)
 
@@ -63,7 +67,7 @@ Credits go to them as well.
 
 ## Unknown device?
 
-If you see a `New unknown device detected` warning in your logs, your device is not yet supported. You can help us add support for it by [reporting it](https://github.com/bropat/eufy-security-client/issues/new?template=unknown_device.yml). See the [guide](docs/reporting_unknown_devices.md) for details on how to extract the log.
+If you see a `New unknown device detected` warning in your logs, your device is not yet supported. You can help us add support for it by [reporting it](https://github.com/marcelinojorgeromero/eufy-security-client/issues/new?template=unknown_device.yml). See the [guide](docs/reporting_unknown_devices.md) for details on how to extract the log.
 
 ## Support
 
@@ -112,9 +116,9 @@ One client instance will show all devices from one Eufy Cloud account and allows
 
 ## Documentation
 
-Look [here](https://bropat.github.io/eufy-security-client/).
+The upstream API documentation remains available [here](https://bropat.github.io/eufy-security-client/).
 
-*As an example, you can look at the following projects: [ioBroker.eufy-security](https://github.com/bropat/ioBroker.eufy-security), [eufy-security-ws](https://github.com/bropat/eufy-security-ws), [eufy_security](https://github.com/fuatakgun/eufy_security)*
+*As an example, you can look at the following projects: [ioBroker.eufy-security](https://github.com/bropat/ioBroker.eufy-security), [the compatibility eufy-security-ws fork](https://github.com/marcelinojorgeromero/eufy-security-ws), [eufy_security](https://github.com/fuatakgun/eufy_security)*
 
 ## Quick Start
 
